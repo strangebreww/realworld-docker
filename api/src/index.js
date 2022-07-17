@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const { connectDb } = require("./helpers/db");
 const { host, port, db } = require("./configuration");
+
 const app = express();
 
 const postSchema = new mongoose.Schema({
